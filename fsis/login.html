@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Login/Sign Up</title>
+        <link rel="stylesheet" href="login.css">
+    
+        
+         <!-- box icons link -->
+         <link rel="stylesheet"
+         href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+     
+         <!-- remix icons link -->
+          <link
+         href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+         rel="stylesheet" />
+     
+         <!-- google font link -->
+         <link rel="preconnect" href="https://fonts.googleapis.com">
+         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+         <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+     
+         <!-- Glidejs-->
+         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.6.0/css/glide.core.css">
+         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.6.0/css/glide.theme.css">
+     
+     
+    </head>
+<body>
+
+             <!--=============== HEADER ===============-->
+             <header class="header">
+                <nav class="nav container">
+                    <div class="nav__data">
+                        <a href="#" class="nav__logo">
+                            <i class="ri-code-s-slash-line"></i> Favour Steel Integrated Services
+                        </a>
+        
+                        <div class="nav__toggle" id="nav-toggle">
+                            <i class="ri-menu-line nav__toggle-menu"></i>
+                            <i class="ri-close-line nav__toggle-close"></i>
+                        </div>
+                    </div>
+      
+                    <!--=============== NAV MENU ===============-->
+                    <div class="nav__menu" id="nav-menu">
+                        <ul class="nav__list">
+                            <li>
+                                <a href="index.html" class="nav__link">HOME</a>
+                            </li>
+      
+                            <li>
+                                <a href="shop.html" class="nav__link">SHOP</a>
+                            </li>
+      
+                            <!--=============== DROPDOWN 3 ===============-->
+                            <li class="dropdown__item">                        
+                                <div class="nav__link dropdown__button">
+                                    COMPANY <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+                                </div>
+      
+                                <div class="dropdown__container">
+                                    <div class="dropdown__content">
+                                        <div class="dropdown__group">
+                                            <div class="dropdown__icon">
+                                                <i class="ri-community-line"></i>
+                                            </div>
+        
+                                            <span class="dropdown__title">About us</span>
+        
+                                            <ul class="dropdown__list">
+                                                <li>
+                                                    <a href="about.html" class="dropdown__link">About us</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#" class="dropdown__link">Support</a>
+                                                </li>
+                                                <li>
+                                                    <a href="contact us.html" class="dropdown__link">Contact us</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+        
+                                        <div class="dropdown__group">
+                                            <div class="dropdown__icon">
+                                                <i class="ri-shield-line"></i>
+                                            </div>
+        
+                                            <span class="dropdown__title">Safety and quality</span>
+        
+                                            <ul class="dropdown__list">
+                                                <li>
+                                                    <a href="#" class="dropdown__link">Cookie settings</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#" class="dropdown__link">Privacy Policy</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+      
+                      </div>
+                </nav>
+            </header>
+            
+
+    <div class="wrapper">
+        <span class="bg-animate"></span>
+        <span class="bg-animate2"></span>
+
+        <div class="form-box login">
+            <h2 class="animation" style="--i:0; --j:21;">Login</h2>
+            <form action="#">
+                <div class="input-box animation" style="--i:1; --j:22;">
+                    <input type="text" required>
+                    <label>Username</label>
+                    <i class='bx bxs-user'></i>
+                </div>
+
+                <div class="input-box animation" style="--i:2; --j:23;">
+                    <input type="password" required>
+                    <label>Password</label>
+                    <i class='bx bxs-lock'></i>
+                </div>
+
+                <button type="submit" class="btn animation" style="--i:3; --j:24;">Login</button>
+
+                <div class="logerg-link animation" style="--i:4; --j:25;">
+                    <p>Don't have an account? <a href="#" class="register-link">Sign Up</a></p>
+
+                </div>
+            </form>
+
+        </div>
+
+        <div class="info-text login">
+            <h2 class="animation" style="--i:0; --j:20;">Welcome Back!</h2>
+            
+            <p class="animation" style="--i:i; --j:21;">We sell all kinds of iron and rod steel</p>
+        </div>
+        
+
+
+        <div class="form-box register">
+            <h2 class="animation" style="--i:17; --j:0;">Sign Up</h2>
+            <form action="#">
+                <div class="input-box animation" style="--i:18; --j:1;">
+                    <input type="text" required>
+                    <label>Username</label>
+                    <i class='bx bxs-user'></i>
+                </div>
+
+                <div class="input-box animation" style="--i:19; --j:2;">
+                    <input type="text" required>
+                    <label>Email</label>
+                    <i class='bx bxs-envelope'></i>
+                </div>
+
+                <div class="input-box animation" style="--i:20; --j:3;">
+                    <input type="password" required>
+                    <label>Password</label>
+                    <i class='bx bxs-lock'></i>
+                </div>
+
+                <button type="submit" class="btn animation" style="--i:21; --j:4;">Sign Up</button>
+
+                <div class="logerg-link animation" style="--i:22; --j:5;">
+                    <p>Already have an account? <a href="#" class="login-link">Login</a></p>
+
+                </div>
+            </form>
+
+
+    </div>
+
+    <div class="info-text register">
+        <h2 class="animation" style="--i:17; --j:0;">Welcome Back!</h2>
+        <p class="animation" style="--i:18; --j:1;">We sell all kinds of iron and rod steel</p>
+
+    </div>
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
